@@ -1,0 +1,182 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Shaily Mishra}} & Email : \href{mailto:shaily.mishra30@gmail.com}{shaily.mishra30@gmail.com}\\
+   & Mobile : +91-962-490-5555 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {School of Engineering and Applied Science}{Ahmedabad, Gujarat, India}
+      {Bachelor of Technology in Information and Communication Technology;  GPA: 3.01/4.33}{July. 2013 -- May. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Argusoft}{Gandhinagar, Gujarat, India}
+      {Programmer Analyst}{June 2017 - Present}
+      \resumeItemListStart
+		\resumeItem{Campaign Management Platform}
+          {handling front-end development. Angular 2.x+. Main role was restructing the project and building layout builder which would reduce the development job for all modules. Main functionalities modular and dynamic so that other modules can use it. Interacting with client and defined the structure of APIs. And also created a few modules. Deadlines. So that non-developer can also build a base. Migrated on angular 2 to angular 4 }
+        \resumeItem{User Management}
+          {Developed backend using Java and frontend using angular 2.x. Authentication and Authorization. Refresh Token, Access Token. Session Management.  }
+        \resumeItem{National Sports Talent Search (Sports Authority of India)}
+          {
+          Worked as a front end developer and designed structure for Angular 2.
+          Worked on NativeScript for the mobile application (Android as well as iOS)
+          Client was handling the backend activity. Interacted with client to define the structure of APIs
+          and communication protocols etc.
+          Worked on production deployment on Play Store and Apple Store for the application
+          }
+      \resumeItemListEnd
+
+    \resumeSubheading
+{Argusoft}{Gandhinagar, Gujarat, India}
+      {Trainee}{Jan 2017 - May 2017}
+      \resumeItemListStart
+        \resumeItem{Web Technologies}
+          {Core JAVA, MySQl, PostGre, MongoDB, Servlets, JSP, Spring MVC, JBDC, JPA, Restful APIs, Javascript, Angular 1.x , Angular 2.x+, Node Js }
+        \resumeItem{Employee Department Management}
+          {Employee-department management system using java backend and angular 2 frontend with user authentication and authorization }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {School of Engineering and Applied Science}{Ahmedabad , Gujarat, India}
+      {Teaching Assistant}{August 2016 - Dec 2016, }
+      \resumeItemListStart
+        \resumeItem{Linear Algebra}
+          {2 TA. Preparing weekly assignments with 10 problems with solutions, conducting a class for assignment solving, checking assignments for 120 students, responsible for marks and attendance management. Checked midsem and Endsem papers. Assisted students in projects. Were following Linear Algebra and Its Application by Gilbert Strang. And attending all lectures.}
+      \resumeItemListEnd
+
+
+  \resumeSubheading
+      {School of Engineering and Applied Science}{Ahmedabad , Gujarat, India}
+      {Teaching Assistant}{July 2014 - Nov 2014, }
+      \resumeItemListStart
+        \resumeItem{ Calculus and Differential Equations }
+          {class of 60. Weekly attending class for assignment solving session. Assisting professor in class to help student solve problems. Super visoring class test. and correcting them. And assisting student in course project. Course followed was Advanced Engineering Mathematics by jain and iyengar }
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{CPU Scheduling Algorithm}
+      {Parser was the program and text files with arithmetic equations were given to this program, and it was scheduled for FCFS, RR, SPN using shell scripting}
+    \resumeSubItem{Spell Checker}
+      {Java Program with database of 5k words using trie tree data structure}
+    \resumeSubItem{Event Ticket Booking Portal}
+      {ERD normailsed to 3rd normal form. in mysql. Procedures, triggers, transactions. 200+ queries}
+    \resumeSubItem{Error Correcting Code ECC}
+      {Implemented LBC - Linear Block Code and LDPC - Linear Density Parity Check Codes with JAVA. Single bit error correcting code}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Extra Articular}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Dynamos Sport Fest of SEAS}
+      {First in 100 m Girls}
+    \resumeSubItem{Adani Ahmedabad Marathon}
+      {Run for Soldiers. 5km under 45 minutes}
+    \resumeSubItem{Himalyan Trek}
+      {Deoriatal Chandrashila Peak Trek. Moderate. 4-8 march. Completed the Summit}
+  \resumeSubHeadingListEnd
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
